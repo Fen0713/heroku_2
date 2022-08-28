@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #f1ebff;
+    
+}
+
+nav 
+{
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #8674aa;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+form {
+    height: 50%;
+    width: 100%;
+}
+.music_container {
+    height: 100%;
+    background-color:#e4d6ff;
+    padding: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    /* border:1px solid black; */
+    margin-top: 40px;
+    /* border-radius: 10x; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.music_container label {
+    color: #8674aa;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+/*This is the submit field*/
+.music_container input {
+    width: 90%;
+    padding: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.music_container input[type=submit] {
+    width: 20%;
+    height: 15%;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border: 0px solid transparent;
+    background-color: #8674aa;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.music_container input[type=submit]:hover {
+    
+    background-color: rgb(236, 157, 228);
+}
+
+
+
