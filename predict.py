@@ -15,9 +15,7 @@ def process_input(user_input):
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
     #import model
-
-    PATH = 'flask_app'
-    with open(f'{PATH}/model.pkl', 'rb') as pickle_file:
+    with open(f'model.pkl', 'rb') as pickle_file:
         pickle_list = pickle.load(pickle_file)
     model = pickle_list[0]
     X = pickle_list[1]
