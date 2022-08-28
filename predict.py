@@ -4,7 +4,7 @@ import numpy as np
 
 import pickle
 #import id, secret
-from flask_app.auth import client_id,client_secret
+from auth import client_id,client_secret
 
 #authorization to access spotify API
 import spotipy
